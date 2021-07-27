@@ -25,7 +25,7 @@ import java.util.Locale;
 @Service
 public class OpenWeatherMapJsonParserService {
     private static String API = "https://api.openweathermap.org/data/2.5/forecast?q=";
-    private static String API_KEY = "&units=metric&APPID=9b240e4ce7aa04c2368178896a88b1cb";
+    private static String API_KEY = "";
     private final static DateTimeFormatter INPUT_DATE_TIME_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     private final static DateTimeFormatter OUTPUT_DATE_TIME_FORMAT = DateTimeFormatter.ofPattern("MMM-dd HH:mm", Locale.US);
     private static String CITY = "Kharkov";
